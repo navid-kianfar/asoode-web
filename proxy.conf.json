@@ -1,0 +1,9 @@
+{
+  "/proxy-api/*": {
+    "target": "http://localhost:6600/api/v1/drethos",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {"^/proxy-api" : ""}
+  }
+}
